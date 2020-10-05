@@ -1,16 +1,9 @@
-# teste_verzel
+## Como rodar
 
-A new Flutter application.
+Esse projeto é feito em flutter, você precisa ter o flutter instalado em seu computador para instalar 
+apenas seguir as instruções desse link: https://flutter.dev/docs/get-started/install
 
-## Getting Started
+Após instalar o flutter, você precisa apenas clonar o projeto, abrir o terminal na pasta do clone rodar o comando
+fluter pub get para baixar as dependências do projeto, em seguida apenas instalar e configurar emulador (tanto iOS como Android). 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Depois apenas rodar e testar. 
