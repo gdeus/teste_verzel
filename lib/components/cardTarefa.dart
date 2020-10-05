@@ -44,6 +44,7 @@ class _CardTarefaState extends State<CardTarefa> {
             children: [
               IconButton(
                 icon: Icon(Icons.edit),
+                color: Colors.blueAccent,
                 onPressed: (){
                   Navigator.push(
                     context,
@@ -53,6 +54,7 @@ class _CardTarefaState extends State<CardTarefa> {
                 },
               ),
               IconButton(
+                color: Colors.redAccent,
                 icon: Icon(Icons.delete),
                 onPressed: (){
                   print(widget.tarefa.tarefaRealizada);
@@ -65,6 +67,7 @@ class _CardTarefaState extends State<CardTarefa> {
               ),
               IconButton(
                   icon: Icon(Icons.check),
+                  color: Colors.lightGreenAccent,
                   onPressed: (){
                     DateTime now = DateTime.now();
                     DateFormat format = DateFormat('dd/MM/yyyy');
